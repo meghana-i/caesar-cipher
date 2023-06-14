@@ -25,28 +25,6 @@ def caesar(start_text, shift_no, cipher_direction):
   print(cipher_direction, end_text) 
 caesar(start_text = text, shift_no = shift, cipher_direction = direction)
 
-# def encrypt(normal_text, shift_no):
-#   cipher_text = ""
-#   for letter in normal_text:
-#     position = alphabet.index(letter)
-#     new_pos = position + shift
-#     new_letter = alphabet[new_pos]
-#     cipher_text += new_letter
-#   print(cipher_text)
-
-
-# def decrypt(cipher_text, shift_no):
-#   normal_text = ""
-#   for letter in cipher_text:
-#     position = alphabet.index(letter)
-#     new_pos = position - shift_no
-#     normal_text += alphabet[new_pos]
-#   print(normal_text) 
-  
-# if direction == "encode":
-#   encrypt(normal_text = text, shift_no = shift)
-# elif direction == "decode":
-#   decrypt(cipher_text=text, shift_no = shift)
 result = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
 if result == "no":
   should_continue = False
